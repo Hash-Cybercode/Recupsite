@@ -21,10 +21,11 @@ background-color: #fbff00;
 float: left;
 width: 15%;
 height: 580px;
+text-align: left;
 }
 #presentation {
 background-color: #24f119;
-width: 80%;
+width: 90%;
 height: 100px;
 }
 footer {
