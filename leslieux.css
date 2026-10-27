@@ -1,0 +1,42 @@
+#contenudepage {
+height: 100%;
+width: 100%;
+background-color: #24097c;
+}
+header {
+background-color: #ff0000;
+width: 100%;
+height: 120px;
+line-height: 120px ;
+text-align: center;
+}
+main {
+background-color: #ffa200;
+width: 100%;
+height: 580px;
+text-align: center;
+}
+#Menu {
+background-color: #fbff00;
+float: left;
+width: 20%;
+height: 580px;
+text-align: center;
+}
+#presentation {
+background-color: #24f119;
+width: 90%;
+height: 120px;
+text-align: left;
+}
+#img {
+max-width: 200px;
+max-height: 200px;
+}
+footer {
+background-color: #ff0000;
+width: 100%;
+height: 60px;
+line-height: 60px;
+text-align: center;
+}
