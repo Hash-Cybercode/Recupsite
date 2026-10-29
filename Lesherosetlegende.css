@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222222;
+    background-color: #e8e4da;  
+}
+
+#contenudepage {
+width: 90%;
+margin: 20px auto;
+background-color: #ffffff
+}
+
+header {
+    background-color: #1f2a44;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    background-color: #f7f5f0;
+    padding: 20px;
+}
+
+#presentation {
+    background-color: #ffffff;
+    border: 1px solid #e2dccb;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+}
+footer {
+    background-color: #1f2a44;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
