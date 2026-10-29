@@ -49,6 +49,23 @@ header h2 {
     padding: 12px 15px;
 }
 
+.menu-dieux {
+    background-color: #f3ead3;
+    padding: 8px;
+}
+
+.menu-dieux h2 {
+    display: inline;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.menu-dieux a {
+    color: #1f2a44;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
 main {
     background-color: #f7f5f0;
     padding: 20px;

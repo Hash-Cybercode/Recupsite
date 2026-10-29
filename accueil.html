@@ -14,14 +14,23 @@
 <!--Menu-->
     <div id="Menu">
       <nav class="menu-principal">
-        <ul>
-          <li><a href="Lesdieuxdelolympe.html">Dieux de l'Olympe</a></li>
-          <li><a href="Lesdieuxmoinsconnus.html">Dieux moins connus</a></li>
-          <li><a href="Leslieux.html">Lieux</a></li>
-          <li><a href="Lesherosetlegendes.html">Héros et légendes</a></li>
-          <li><a href="Lesmonstres.html">Monstres</a></li>
-        </ul>
+            <ul>
+                <li><a href="accueil.html" class="actif">Accueil</a></li>
+                <li><a href="Lesdieuxdelolympe.html">Dieux de l'Olympe</a></li>
+                <li><a href="Lesdieuxmoinsconnus.html">Dieux moins connus</a></li>
+                <li><a href="Leslieux.html">Lieux</a></li>
+                <li><a href="Lesherosetlegendes.html">Héros et légendes</a></li>
+                <li><a href="Lesmonstres.html">Monstres</a></li>
+            </ul>
       </nav>
+      <nav class="menu-dieux">
+            <h2>Les Dieux Grecs : </h2>
+            <ul>
+                <li><a href="Hades.html">Hadès</a></li>
+                <li><a href="Poss.html">Poséidon</a></li>
+                <li><a href="Zeus.html">Zeus</a></li>
+            </ul>
+        </nav>
     </div>     
 <!--Principal-->
     <main>    
@@ -44,9 +53,12 @@
     <label for="email">Entrez votre e-mail&nbsp;: </label>
     <input type="email" name="email" id="email" required />
   </div>
-  <div></div>
+  <div>
+    <label for="message">Votre avis :</label>
+    <textarea name="message" id="message" rows="5" placeholder="Écrivez votre message ici..." required=""></textarea>
+  </div>
   <div class="form-example">
-    <input type="submit" value="Envoyer" />
+    <input type="submit" id="envoyer" value="Envoyer" />
   </div>
 </form>
             </section>
