@@ -18,6 +18,11 @@ header {
     padding: 20px;
 }
 
+header h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
 #Menu {
     text-align: center;
 }
@@ -58,6 +63,25 @@ main {
     padding: 10px;
     text-align: left;
 }
+
+form {
+background-color: #fbfaf6;
+width: 80%;
+padding: 15px;
+border: 1px solid #e2dccb;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+#envoyer {
+background-color: #c9a227;
+color: #1f2a44;
+font-weight: bold;
+border:none;
+}
+
 footer {
     background-color: #1f2a44;
     color: white;

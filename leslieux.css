@@ -18,6 +18,37 @@ header {
     padding: 20px;
 }
 
+header h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#Menu {
+    text-align: center;
+}
+
+.menu-principal {
+    background-color: #2e3b5e;
+}
+
+#Menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Menu li {
+    display: inline-block;
+}
+
+.menu-principal a {
+    display: block;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 15px;
+}
+
 main {
     background-color: #f7f5f0;
     padding: 20px;
