@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222222;
+    background-color: #e8e4da;  
+}
+
+#contenudepage {
+width: 90%;
+margin: 20px auto;
+background-color: #ffffff
+}
+
+header {
+    background-color: #1f2a44;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#Menu {
+    text-align: center;
+}
+
+.menu-principal {
+    background-color: #2e3b5e;
+}
+
+#Menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Menu li {
+    display: inline-block;
+}
+
+.menu-principal a {
+    display: block;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 15px;
+}
+
+.menu-dieux {
+    background-color: #f3ead3;
+    padding: 8px;
+}
+
+.menu-dieux h2 {
+    display: inline;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.menu-dieux a {
+    color: #1f2a44;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+main {
+    background-color: #f7f5f0;
+    padding: 20px;
+}
+
+#presentation {
+    background-color: #ffffff;
+    border: 1px solid #e2dccb;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+}
+
+.img {
+    padding: 20px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+footer {
+    background-color: #1f2a44;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
